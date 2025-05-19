@@ -1,0 +1,358 @@
+@font-face{
+    font-family: Cinzel;
+    src:url(../TXT/Cinzel/static/Cinzel-Medium.ttf);
+}
+
+@font-face{
+    font-family:  Libre;
+    src:url(../TXT/Libre_Baskerville/LibreBaskerville-Regular.ttf) ;
+}
+
+body{
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 180px;
+    width: auto;         
+    background-color: #000000; 
+    margin: 30px 0 0 0;
+  }
+
+  .menu {
+    font-family: Cinzel;
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin: 70px 0 0 0;
+  }
+  
+  .menu li a {
+    color: white;  
+    font-size: 24px; 
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    color:#d4af37;   
+  }
+
+
+  .intro{
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    overflow: hidden;
+
+  }
+  
+  .reflectores {
+    position: relative;
+  }
+  
+  .reflector {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    top: 0;
+    opacity: 0.9;
+    display: block;
+    z-index: 1;
+  }
+  
+  .reflector.izquierdo {
+    left: 0;
+  }
+  
+  .reflector.derecho {
+    right: 0;
+  }
+  
+  
+  h1 {
+    font-family: Cinzel;
+    font-size: 50px;
+    line-height: 80px;
+    color:#d4af37;
+  }
+  
+  .boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 30px;
+  }
+
+  .viajeeneltiempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .imagen1 {
+    flex: 1;
+    padding-right: 30px;
+  }
+  
+  .imagen1 img {
+    width: 90%;
+    height: auto;
+  }
+  
+  .texto1 {
+    flex: 1.2;
+  }
+  
+  .texto1 h1 {
+    color: #d4af37;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .texto1 p {
+    font-family: Libre;
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+    text-align: center; 
+  }
+
+  .prog{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+  }
+  .programacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+  
+  .PROG img {
+    width: 100%;
+  }
+  
+  .fecha {
+    font-size: 40px;
+    margin: 15px 0 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .decadas {
+    font-size: 30px;
+    color: #f5d36d;
+    text-align: center;
+  }
+  
+  .centro {
+    margin-bottom: 180px;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    color: #f5d36d;
+
+    text-align: center;
+  }
+  
+  .boton2 {
+    display: inline-block;
+    background-color: #701f1f;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 30px;
+    padding: 10px 30px;
+
+  }
+  
+  .boton2:hover {
+    background-color: #f75f5f;
+  }
+
+  .seccion-visitantes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: black;
+    flex-wrap: wrap;
+  }
+  
+  .visitantes-internacionales {
+    flex: 1;
+    padding: 20px;
+    color: #f5d36d;
+    font-family: Cinzel;
+    text-align: center;
+  }
+  
+  .visitantes-internacionales h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .iconos-internacionales {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .icono1 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .icono2 img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .boton-ver-precios {
+    background-color: #701f1f;
+    color: #d4af37;
+    padding: 14px 50px;
+    font-size: 20px;
+    font-family: Cinzel;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .boton-ver-precios:hover {
+    background-color: #f75f5f;
+  }
+  
+  .imagen-entradas {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .imagen-entradas img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: black;
+  }
+
+  .ubicacion img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .banner-descuento {
+    background-color: #701f1f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Cinzel, serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .footer {
+    background-color: #000;
+    color: #ffffff; /* Beige claro */
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-icons img {
+    width: 3%;
+    margin: 0 10px;
+    vertical-align: middle;
+    filter: brightness(1.2);
+    transition: transform 0.3s;
+  }
+  
+  .footer-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-links {
+    margin: 15px 0;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-copy {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+ header{
+  justify-content: space-between;
+ }
+
+ .reflectores{
+   
+ }
+ .menu{
+flex-direction: column;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  img{
+    width: 100% !important;
+  }
+  .menu{
+    flex-direction: column;
+  }
+  .viajeeneltiempo{
+    padding: 4px;
+  }
+  .texto1{
+    text-align: center;
+  }
+  .intro{
+    text-align: center;
+  }
+  h1{
+    line-height: 40px;
+  }
+  .texto1{
+    flex: auto;
+  }
+
+}
+
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
